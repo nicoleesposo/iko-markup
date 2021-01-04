@@ -35,14 +35,14 @@ function myFunction() {
     } else {
       document.getElementById("main-nav-bar").className = "";
       document.getElementById("svg-menu").style.fill = "#fff";
-      document.getElementById("user-icon").style.fill = "#fff";
       document.getElementById("svg-logo").style.fill = "#fff";
+      document.getElementById("user-icon").style.fill = "#fff";
     }
   } else {
       console.log("eyy");
       document.getElementById("main-nav-bar").className = "on-scroll-nav-bg";
       document.getElementById("svg-menu").style.fill = "#000";
-      document.getElementById("user-icon").style.fill = "#000";
       document.getElementById("svg-logo").style.fill = "#000";
+      document.getElementById("user-icon").style.fill = "#000";
   }
 }

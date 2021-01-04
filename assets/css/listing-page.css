@@ -97,3 +97,8 @@ main.body .search-results h5 {
 .page-link:focus {
     box-shadow: none !important;
 }
+
+.popular-item h3,
+.popular-item p {
+    color: #000;
+}

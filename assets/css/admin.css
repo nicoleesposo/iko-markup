@@ -237,8 +237,10 @@
     border-color: #cacaca;
 }
 
-
-
+small {
+    font-size: 12px !important;
+    color: #a7a19f;
+}
 
 
 
