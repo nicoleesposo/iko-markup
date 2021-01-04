@@ -155,7 +155,8 @@
 }
 
 .mega-menu .overlay-menu {
-    height: 100vh;
+    height: calc(100vh - 60px);
+    margin-top: 60px;
     z-index: 2;
     background-color: transparent;
     background-image: linear-gradient(220deg, #EA406F 19%, #FD5D47 85%);
