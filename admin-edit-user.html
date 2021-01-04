@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | Edit Resort</title>
+
+    <!-- css links -->
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/admin.css">
+    <link rel="stylesheet" href="./assets/css/account-user.css">
+    <link rel="stylesheet" href="./assets/css/listing-page.css">
+    <link rel="stylesheet" href="./assets/css/utility.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="nav-bar">
+        <div id="main-nav-bar">
+            <div class="nav-divider on-the-left">
+                <div id="hamburger-icon" class="hamburger-icon hvr-sweep-to-top">
+                    <div class="hamburger">
+                        <svg id="svg-menu" style="fill: #fff" viewBox="0 -53 384 384"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
+                            <path
+                                d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
+                            <path
+                                d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="divider-line"></div>
+                <div class="nav-item write-review-link hvr-sweep-to-top">Write Review</div>
+                <div class="divider-line"></div>
+            </div>
+            <div class="nav-divider on-the-right">
+                <div class="divider-line"></div>
+                <div class="nav-item login-link hvr-sweep-to-top">Login</div>
+                <div class="divider-line"></div>
+                <div class="nav-item register-link hvr-sweep-to-top">Register</div>
+            </div>
+            <a href="#" class="main-logo">
+                <?xml version="1.0" encoding="utf-8"?>
+                <svg id="svg-logo" style="fill: #fff" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 400" <g>
+                    <defs>
+                        <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#FD5D47;stop-opacity:100%" />
+                            <stop offset="100%" style="stop-color:#EA406F;stop-opacity:85%" />
+                        </linearGradient>
+                    </defs>
+                    <g>
+                        <path d="M95,38v323H30V38H95z" />
+                        <path d="M454.4,38L320.7,198.1L458.1,361h-82.2L258,217.1V361h-65V38h65v144.8L375.9,38H454.4z" />
+                    </g>
+                    <g>
+                        <path class="st0" fill="url('#grad3')" d="M626.1,29.4c-79.7,0-144.5,64.8-144.5,144.5c0,45.4,40.1,99.4,64,127.5c15.2,17.9,62.7,69.1,80.5,69.1
+			c21.5,0,80.1-68.4,80.7-69.1c23.8-28.1,63.8-82.1,63.8-127.5C770.6,94.2,705.8,29.4,626.1,29.4z M717.5,172.8
+			c0,50.1-40.7,90.8-90.8,90.8c-50.1,0-90.8-40.7-90.8-90.8S576.6,82,626.7,82C676.7,82,717.5,122.7,717.5,172.8z" />
+                        <path class="st0" d="M652.8,125.4c-12.3,0-21.4,8.4-26.7,14.2c-5.1-5.8-14-14.2-26.7-14.2c-19.2,0-35.1,15.5-36.2,35.3
+			c-0.6,12,3.9,20.5,7.4,25.9c8.2,12.6,44.4,39.7,55.5,39.7c11.3,0,46.9-26.7,55.4-39.7c3.5-5.4,8.1-13.9,7.4-25.9
+			C687.9,140.9,672,125.4,652.8,125.4z" />
+                    </g>
+                    </g>
+                </svg>
+
+            </a>
+            <div class="bottom-line"></div>
+        </div>
+
+        <div id="mega-menu" class="mega-menu hidden">
+            <div class="overlay-menu">
+                <nav>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <a href="#">Home</a>
+                                <a href="#">About Us</a>
+                                <a href="#">Explore</a>
+                                <a href="#">Write Review</a>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="#">Help Center</a>
+                                <a href="#">Contact</a>
+                                <a href="#">Login</a>
+                                <a href="#">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="sub-hero">
+        <div class="overlay-img"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-sm-12">
+                    <div class="sub-content">
+                        <h3 class="fweight-500">Admin</h3>
+                        <h2 class="fweight-700">Edit User</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="admin account-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 sidebar">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                            Resorts
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Users</a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12">
+                    <div class="content">
+                        <form>
+                            <div class="mb-3 row">
+                                <label for="fullname" class="col-lg-2 col-md-12 col-form-label fweight-600">Your Full Name</label>
+                                <div class="col-lg-10 col-sm-12">
+                                    <input type="text" id="fullname" value="Nicole Joy Esposo" required>
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="email" class="col-lg-2 col-md-12 col-form-label fweight-600">Email Address</label>
+                                <div class="col-lg-10 col-sm-12">
+                                    <input type="email" id="email" value="example@email.com" required>
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="phone" class="col-lg-2 col-md-12 col-form-label fweight-600">Phone Number</label>
+                                <div class="col-lg-10 col-sm-12">
+                                    <input type="number" id="phone" value="222-222-222" required>
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="phone" class="col-lg-2 col-md-12 col-form-label fweight-600">Account Type</label>
+                                <div class="col-lg-10 col-sm-12">
+                                    <div class="role">
+                                        <input type="radio" class="btn-check" name="options-outlined" id="resort-owner"
+                                            autocomplete="off">
+                                        <label class="btn btn-outline-success" for="resort-owner">Resort Owner</label>
+    
+                                        <input type="radio" class="btn-check" name="options-outlined" id="reviewer"
+                                            autocomplete="off" checked>
+                                        <label class="btn btn-outline-success" for="reviewer">Reviewer</label>
+    
+                                        <input type="radio" class="btn-check" name="options-outlined" id="administrator"
+                                            autocomplete="off">
+                                        <label class="btn btn-outline-success" for="administrator">Administrator</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-grid submit">
+                                <button type="submit" class="btn btn-primary btn-block">Update User</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 content">
+                    <p>Copyright @ 2020 <span class="fweight-700">IKO</span> by Bears Team 6</p>
+                </div>
+                <div class="col-lg-4 col-md-12 logo float-sm-start">
+                    <img src="./assets/images/logo-gradient.svg" alt="Logo">
+                </div>
+                <div class="col-lg-4 col-md-12 socials content">
+                    <a class="fweight-600 link" href="#">Facebook</a> / <a class="fweight-600 link"
+                        href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
